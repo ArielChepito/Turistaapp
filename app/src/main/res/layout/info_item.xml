@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewInfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    tools:cardBackgroundColor="#2b2828"
+    android:layout_marginBottom="5sp"
+    >
+
+
+
+    <ImageView
+        android:id="@+id/imageViewInfo"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:layout_gravity="top"></ImageView>
+
+    <LinearLayout
+        android:id="@+id/panelLoginInfo"
+
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:orientation="vertical"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp">
+
+        <TextView
+            android:id="@+id/txtTituloInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_margin="5sp"
+            android:text="Titulo"
+            android:textColor="#FFF"
+            android:textSize="18dp" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtDescripcionInfo"
+        android:layout_width="match_parent"
+        android:layout_height="306dp"
+        android:layout_gravity="bottom"
+        android:text="DESCRIPCION"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+
+</android.support.v7.widget.CardView>
